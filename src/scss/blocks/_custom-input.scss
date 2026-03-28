@@ -13,6 +13,12 @@
     border-radius: 16px;
     background-color: $color-granite-gray;
     color: $color-electric-lime;
+    transition: background-color $transition-300, color $transition-300;
+
+    &:hover, &:focus-visible {
+      background-color: $color-white;
+      color: $color-granite-gray;
+    }
   }
 
   &__label {

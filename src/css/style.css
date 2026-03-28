@@ -64,6 +64,10 @@ body {
   font-size: 24px;
   line-height: 28px;
   width: 100%;
+  transition: background-color 0.3s ease-in;
+}
+.btn:hover, .btn:focus {
+  background-color: #ffffff;
 }
 .btn--granite-gray {
   padding: 10px;
@@ -86,6 +90,11 @@ body {
   border-radius: 16px;
   background-color: #313642;
   color: #cdff07;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.custom-input__field:hover, .custom-input__field:focus-visible {
+  background-color: #ffffff;
+  color: #313642;
 }
 .custom-input__label {
   font-weight: 500;
@@ -111,6 +120,11 @@ body {
   background-color: #313642;
   color: #cdff07;
   resize: none;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.custom-textarea__field:hover, .custom-textarea__field:focus-visible {
+  background-color: #ffffff;
+  color: #313642;
 }
 .custom-textarea__label {
   font-weight: 500;
