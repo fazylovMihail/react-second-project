@@ -60,13 +60,13 @@ body {
   border-radius: 16px;
   background-color: #cdff07;
   font-family: "Noto Sans", "Arial", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   width: 100%;
 }
 .btn--granite-gray {
   padding: 10px;
-  font-weight: 700;
   color: #313642;
   border: 4px dashed #313642;
 }
