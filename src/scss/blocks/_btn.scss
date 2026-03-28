@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  background-color: $color-electric-lime;
+  font-family: $ff-noto;
+  font-size: 24px;
+  line-height: 28px;
+  width: 100%;
+
+  &--granite-gray {
+    padding: 10px;
+    font-weight: 700;
+    color: $color-granite-gray;
+    border: 4px dashed $color-granite-gray;
+  }
+}

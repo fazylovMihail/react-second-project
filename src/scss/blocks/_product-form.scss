@@ -1,0 +1,32 @@
+.product-form {
+  position: fixed;
+  inset: 0;
+  background-color: rgba($color-black, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    background-color: $color-electric-lime;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__heading {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: $color-granite-gray;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

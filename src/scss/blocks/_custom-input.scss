@@ -1,0 +1,24 @@
+.custom-input {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+
+  &__field {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    background-color: $color-granite-gray;
+    color: $color-electric-lime;
+  }
+
+  &__label {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $color-granite-gray;
+  }
+}
